@@ -155,3 +155,66 @@ main{
     border-radius: 5px;
 
 }
+
+
+
+
+/* resume */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+
+.experience-discription , .ceperience-sub-title{
+    color: #757575;
+}
+
+.ceperience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.resume hr{
+    margin: 25px 5px;
+}
+
+/* .experience-title{
+    margin-top: 35px;
+} */
+
+.resume-dowenlad-cv{
+    margin-top: 50px;
+
+}
+
+
+/* footer sttyle */
+.footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-coloumn{
+    width: 50%;
+}
+
+input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+
+.foter-container{
+    display: flex;
+}
+
+.btn{
+    margin-bottom: 20px;
+}
